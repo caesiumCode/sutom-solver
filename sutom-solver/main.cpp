@@ -5,11 +5,12 @@
 //  Created by Stephen Jaud on 10/02/2022.
 //
 
+#include "Program.hpp"
 #include <iostream>
-#include <SFML/Graphics.hpp>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main(int argc, const char * argv[]) {    
+    Program program;
+    program.run();
+    
+    return EXIT_SUCCESS;
 }
