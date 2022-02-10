@@ -1,4 +1,4 @@
-//
+ //
 //  main.cpp
 //  sutom-solver
 //
@@ -6,6 +6,7 @@
 //
 
 #include <iostream>
+#include <SFML/Graphics.hpp>
 
 int main(int argc, const char * argv[]) {
     // insert code here...
